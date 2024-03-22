@@ -22,8 +22,15 @@ for (let i = 0; i <imageArray.length; i++) {
     }
     ); 
 
-
 }
 
-
 /* Wiring up the Darken/Lighten button */
+btn.addEventListener('click', () => {
+     const btnClass = btn.getAttribute('class');
+     if (btnClass === 'dark') {
+
+     } else (btnClass === 'light') 
+        
+     }
+
+)
